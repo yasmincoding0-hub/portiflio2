@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yasmin Mohamed | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><a href="#hero">Yasmin.dev</a></div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="hero-left">
+        <h1 id="typing-text"></h1>
+        <p class="sub-text">
+          Motivated Front-End Developer skilled in building responsive,
+          user-friendly interfaces with a passion for clean code and modern
+          design.
+        </p>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+      <div class="hero-right">
+        <div class="profile-glow">
+          <img src="profile.jpg" alt="Yasmin Mohamed" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-hidden">
+      <h2>About Me</h2>
+      <p class="section-intro">
+        Detail-oriented Front-End Developer with a solid foundation in Angular
+        and modern web technologies. Currently expanding my skills into back-end
+        development with .NET to become a proficient Full-Stack Developer.
+      </p>
+    </section>
+
+    <section id="experience" class="experience section-hidden">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <h3>.NET Trainee</h3>
+          <p class="timeline-meta">ITI Internship | September 2025 – Present</p>
+          <ul>
+            <li>
+              Developing web applications using C# and ASP.NET MVC architecture.
+            </li>
+            <li>Working with Entity Framework for database management.</li>
+            <li>
+              Applying object-oriented programming (OOP) principles in .NET
+              applications.
+            </li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <h3>Front-End Web Developer Trainee</h3>
+          <p class="timeline-meta">
+            Digital Egypt Pioneers Initiative (DEPI) | June 2025 – Present
+          </p>
+          <ul>
+            <li>
+              Developed interactive user interfaces using JavaScript,
+              TypeScript, and Angular.
+            </li>
+            <li>
+              Learned and applied web development fundamentals like HTML, CSS,
+              and Bootstrap.
+            </li>
+            <li>
+              Worked with jQuery to enhance user experience in practical
+              projects.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-hidden">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-tag">Angular</div>
+        <div class="skill-tag">TypeScript</div>
+        <div class="skill-tag">JavaScript</div>
+        <div class="skill-tag">HTML5</div>
+        <div class="skill-tag">CSS3</div>
+        <div class="skill-tag">Bootstrap</div>
+        <div class="skill-tag">.NET MVC</div>
+        <div class="skill-tag">Entity Framework</div>
+        <div class="skill-tag">C#</div>
+        <div class="skill-tag">jQuery</div>
+      </div>
+    </section>
+
+    <section id="education" class="education section-hidden">
+      <h2>Education</h2>
+      <div class="education-card">
+        <div class="education-icon"><i class="fas fa-university"></i></div>
+        <h3>Ain Shams University</h3>
+        <p>
+          Faculty of Science – Department of Statistics and Computer Science
+        </p>
+      </div>
+    </section>
+
+    <section id="certificates" class="certificates section-hidden">
+      <h2>Certificates</h2>
+      <div class="certificates-grid">
+        <div class="cert-card">
+          <img
+            src="Screenshot 2025-09-16 163823.png"
+            alt="GitHub Copilot Certificate"
+          />
+          <h3>GitHub Copilot</h3>
+          <p>Management and customization considerations.</p>
+        </div>
+        <div class="cert-card">
+          <img
+            src="Screenshot 2025-09-24 150310.png"
+            alt="Sprints x Microsoft Certificate"
+          />
+          <h3>Sprints x Microsoft Summer Camp</h3>
+          <p>Completed 40 hours of training in Web Development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-hidden">
+      <h2>Contact Me</h2>
+      <p class="section-intro">
+        Have a question or want to work together? Leave your details below!
+      </p>
+      <form id="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="6"
+          required
+        ></textarea>
+        <button type="submit" class="btn" id="submit-btn">Send Message</button>
+        <p id="form-status"></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Yasmin Mohamed. All Rights Reserved.</p>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/yasmin-mohamed-495a20200"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
